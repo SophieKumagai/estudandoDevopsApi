@@ -37,7 +37,7 @@ public class ProdutoController{
     }
 
 
-    @GetMapping("/selecionar")
+    @GetMapping("/getAll")
     @Operation(summary = "Lista todos os produtos",
                description = "Retorna uma lista de todos os produtos disponíveis")
     @ApiResponses(value = {
